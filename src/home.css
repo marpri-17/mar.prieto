@@ -1,0 +1,68 @@
+ /* TABS */
+.tabs__container{
+    position: relative;
+    border: 2px black;
+    width: 800px;
+   
+}
+
+.tabs{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.tab__item{
+    width: 6em;
+    background: #eee;
+    margin-right: 1px;
+    padding: 0 1em;
+    border: 1px solid grey;
+    border-radius: 6px 6px 0 0;
+    line-height: 3em;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.panels{
+    box-sizing: border-box;
+    background: rgba(246, 114, 236);
+    padding: 1em;
+    border: 1px solid;
+    height: auto;
+}
+
+.panel{
+    display: none;
+}
+
+
+/* SELECTED */
+
+.tab__item.selected{
+    position: relative;
+    background: rgba(246, 114, 236);
+    top: 1px;
+    z-index: 2;
+}
+
+.panel.selected{
+    
+    display: block;
+}
+
+ /* ***** */
+
+ /* HOME */
+
+.pic{
+   
+    height: 35%;
+    width: 35%;
+    float: left;
+    shape-outside: url("./assets/octocat_test.png");
+    shape-image-threshold: 0.5;
+    shape-margin: 20px;
+    /* shape-outside: url("./assets/octocat_sil.png"); */
+}
