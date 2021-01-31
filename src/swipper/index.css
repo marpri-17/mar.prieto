@@ -1,0 +1,19 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color:#f2efc7;
+    height: 500px;
+
+}
+
+/* SWIPER */
+
+.swiper-container {
+    width: 600px;
+    height: 300px;
+    background-color: #b1c1f0;
+  }
